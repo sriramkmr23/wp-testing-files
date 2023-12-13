@@ -1,0 +1,19 @@
+@charset 'UTF-8';
+
+// Configurations and helpers
+@import
+    'utility/variables',
+    'utility/typography';
+
+@import
+  'components/footer',
+  //'components/header', 
+  'components/top-bar',
+  'components/product-solution' ;
+
+body{
+    background-color: $bronze-yellow;
+}
+p {
+    font-size: 14px;
+}

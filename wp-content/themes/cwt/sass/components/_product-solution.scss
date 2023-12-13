@@ -1,0 +1,26 @@
+.product-solution
+{
+    background-color: $light-grey;
+    text-align: center;
+
+    .productbox {
+        padding: 40px 15px;
+
+        .product-image  
+        {
+
+            img{
+                width: 100%;
+            }
+        }
+        .product-content-box
+        {
+            background-color: $web-white;
+            padding: 20px;
+            margin: 0px;
+            text-align: center;
+        }
+
+    }
+    
+}

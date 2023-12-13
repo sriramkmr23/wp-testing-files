@@ -1,0 +1,71 @@
+/*Theme Color*/
+$yankees-blue:                  #365674;
+$bronze-yellow:                 #a6ad1d;
+/*************/
+
+$black-grey:                    #2c2c2b;
+$web-black:                     #000;
+$web-white:                     #FFFFFF;
+
+$primary-opacity:               #36567496;
+$secondary-opacity:             #a6ad1d59; 
+
+$primary:                       $yankees-blue;
+$secondary:                     $bronze-yellow;
+$tertiary:                      #F1F1F1;
+
+$primary-hover:                 #384756;
+$secondary-hover:               #82871a;
+$tertiary-hover:                #e8e8e8;
+
+$body-text-color:               $primary;
+$header-color:                  $primary;
+
+$corporate-secondary-grey:      #474747;
+$corporate-primary-grey:        #d0d0d0;
+
+$web-black-shades:              #333333;
+$web-white-shades:              $corporate-primary-grey;
+
+
+$mobile-nav-border:             #e3e2de;
+$footer-darker-color:           #f1f1f1;
+
+$blue-tint:                     #aea7b2;
+$light-grey:                    #F1F1F1;
+$dark-grey:                     #949494;
+
+/***** Override SASS colour *****/
+$info:                          $primary;
+$light:                         #F2F3F6;
+/***** End Override SASS colour *****/
+
+$enable-rounded:                false;
+
+$visited-link:                  $secondary; // #884488 - default https://webaim.org/blog/wcag-2-0-and-link-colors/
+
+$line-height-base:                1.6;
+
+$font-size-base:                  1rem;
+$h1-font-size:                	  45px;/**2.77778em;$font-size-base * 1.9;**/
+$h2-font-size:                	  30px; /**1.33333em;$font-size-base * 1.7;**/
+$h3-font-size:                	  22px;/**$font-size-base * 1.4;**/
+$h4-font-size:                	  20px;/**$font-size-base * 1.2;**/
+$h5-font-size:                	  18px;/**$font-size-base * 1;**/
+$h6-font-size:                	  16px;/**$font-size-base * 1;**/
+
+$grid-columns:      12;
+$grid-gutter-width: 1.5rem;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 1024px
+);
+
+$container-max-widths: (
+  sm: 420px,
+  md: 720px,
+  lg: 960px
+);

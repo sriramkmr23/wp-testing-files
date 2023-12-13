@@ -1,0 +1,10 @@
+.top-bar {
+    background-color: $primary;
+    color: $web-white;
+    a {
+        color: $web-white;
+    }
+    a:hover{
+        color: $secondary;
+    }
+}           

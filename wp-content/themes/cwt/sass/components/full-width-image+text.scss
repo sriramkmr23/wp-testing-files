@@ -1,0 +1,26 @@
+.parallex-img {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    position: relative;
+    z-index: 1;
+  }
+  
+
+  .background-overlay {
+    background: linear-gradient(75deg, $primary-opacity, $secondary-opacity), $primary-opacity center center/cover no-repeat scroll;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+}
+
+.overlay-text
+{
+    position: relative;
+    color: $web-white;
+}
